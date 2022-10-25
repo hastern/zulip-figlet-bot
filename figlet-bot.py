@@ -4,12 +4,10 @@ import pyfiglet
 
 from typing import Any, Dict, Optional
 
+logger = logging.getLogger(__name__)
+
 
 class FigletBotHandler:
-    """
-    This plugin provides simple interface to store and query the skillset of
-    users.
-    """
 
     META = {
         "name": "FIGLet",
